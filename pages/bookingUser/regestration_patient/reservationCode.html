@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Input Data Example</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .print-container {
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin: 20px;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .print-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .code {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .code input {
+            width: 30px;
+            text-align: center;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-container">
+        <p>:كود المريض</p>
+        <div class="code" id="out">
+            
+        </div>
+        <button class="print-button">طباعه</button>
+    </div>
+    <script src="./code.res.js"></script>
+ </body>
+</html>
